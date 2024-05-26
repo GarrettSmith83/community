@@ -3,8 +3,8 @@
 require "faraday"
 require "json"
 
-require_relative "./categories"
-require_relative "./discussions"
+require "./lib/categories"
+require "./lib/discussions"
 
 # A class to make it easier to send requests to the GitHub GraphQL endpoint
 class GitHub
